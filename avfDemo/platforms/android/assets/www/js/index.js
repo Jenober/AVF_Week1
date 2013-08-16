@@ -1,7 +1,5 @@
 //Make sure the device is ready before doing anything
 
-document.addEventListener("deviceready", onDeviceReady, false);
-
 function onDeviceReady() {
     //Code to run when home page loads
     $(document).on('pageinit','#homePage',function(){
@@ -18,7 +16,7 @@ function onDeviceReady() {
     //Code to run when Data API page loads
     $(document).on('pageinit','#dataPage',function(){
 
-
+alert("datapage loaded!");
 
     });
     //Research page load code
@@ -36,6 +34,7 @@ function onDeviceReady() {
 
     //instaDemo.html load code
     $(document).on('pageinit','#instaPage',function(){
+        alert("instaPage loaded!");
         var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&amp;client_id=60e2a3926a9b4ba08b4920b7922e5479'
         console.log('instaPage has initialized!');
         $.getJSON(url, function(dataset){
@@ -45,10 +44,15 @@ function onDeviceReady() {
             var mediaCount = dataset.data.media_count;
             $('#mediaCount').text(mediaCount);
 
-        });
+        })
+            .error(function(args){
+
+                alert(args);
+            });
     });
 //jokePage load code
     $(document).on('pageinit','#jokePage',function(){
+        alert("jokepage loaded!");
         var url = 'http://api.icndb.com/jokes/random'
         console.log('jokePage has initialized!');
         $.getJSON(url, function(dataset){
@@ -68,3 +72,4 @@ function onDeviceReady() {
     });
 };
 
+document.addEventListener("deviceready", onDeviceReady, false);

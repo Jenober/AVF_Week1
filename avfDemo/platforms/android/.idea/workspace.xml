@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="73" selection-start="4450" selection-end="4581" vertical-scroll-proportion="0.71938777">
+            <state line="89" column="0" selection-start="3538" selection-end="3538" vertical-scroll-proportion="-36.25">
               <folding>
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -34,7 +34,7 @@
       <file leaf-file-name="jokeDemo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/jokeDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="65" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-20.75">
+            <state line="52" column="65" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-27.625">
               <folding />
             </state>
           </provider>
@@ -43,22 +43,21 @@
       <file leaf-file-name="instaDemo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/instaDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1899" selection-end="2022" vertical-scroll-proportion="-20.75">
+            <state line="53" column="0" selection-start="1899" selection-end="2022" vertical-scroll-proportion="-29.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="4" selection-start="670" selection-end="1771" vertical-scroll-proportion="0.0">
+            <state line="35" column="52" selection-start="710" selection-end="710" vertical-scroll-proportion="0.26960784">
               <folding>
-                <element signature="e#238#248#0" expanded="false" />
-                <element signature="e#354#364#0" expanded="false" />
-                <element signature="e#462#472#0" expanded="false" />
-                <element signature="e#561#571#0" expanded="false" />
-                <element signature="e#652#662#0" expanded="false" />
+                <element signature="e#173#183#0" expanded="false" />
+                <element signature="e#289#299#0" expanded="false" />
+                <element signature="e#522#532#0" expanded="false" />
+                <element signature="e#613#623#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,16 +86,16 @@
         <option value="$PROJECT_DIR$/assets/www/js/dataAPI.js" />
         <option value="$PROJECT_DIR$/assets/www/js/instaDemo.js" />
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
-        <option value="$PROJECT_DIR$/assets/www/js/index.js" />
         <option value="$PROJECT_DIR$/assets/www/instaDemo.html" />
         <option value="$PROJECT_DIR$/assets/www/jokeDemo.html" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/js/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
+    <option name="x" value="675" />
+    <option name="y" value="39" />
     <option name="width" value="1036" />
     <option name="height" value="773" />
   </component>
@@ -223,14 +222,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1036" height="773" extended-state="0" />
-    <editor active="true" />
+    <frame x="675" y="39" width="1036" height="773" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29841897" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29841897" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -348,38 +347,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="670" selection-end="1771" vertical-scroll-proportion="0.0">
+        <state line="89" column="0" selection-start="3538" selection-end="3538" vertical-scroll-proportion="-36.25">
           <folding>
-            <element signature="e#238#248#0" expanded="false" />
-            <element signature="e#354#364#0" expanded="false" />
-            <element signature="e#462#472#0" expanded="false" />
-            <element signature="e#561#571#0" expanded="false" />
-            <element signature="e#652#662#0" expanded="false" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/instaDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1899" selection-end="2022" vertical-scroll-proportion="-20.75">
+        <state line="53" column="0" selection-start="1899" selection-end="2022" vertical-scroll-proportion="-29.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/jokeDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="65" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-20.75">
+        <state line="52" column="65" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-27.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="73" selection-start="4450" selection-end="4581" vertical-scroll-proportion="0.71938777">
+        <state line="35" column="52" selection-start="710" selection-end="710" vertical-scroll-proportion="0.26960784">
           <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="e#173#183#0" expanded="false" />
+            <element signature="e#289#299#0" expanded="false" />
+            <element signature="e#522#532#0" expanded="false" />
+            <element signature="e#613#623#0" expanded="false" />
           </folding>
         </state>
       </provider>
