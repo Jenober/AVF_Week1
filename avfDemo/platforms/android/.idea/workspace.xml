@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="72" selection-start="2929" selection-end="2970" vertical-scroll-proportion="-19.375">
+            <state line="113" column="69" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.71938777">
               <folding>
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -34,7 +34,7 @@
       <file leaf-file-name="jokeDemo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/jokeDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="698" selection-end="698" vertical-scroll-proportion="-12.5">
+            <state line="52" column="65" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-20.75">
               <folding />
             </state>
           </provider>
@@ -43,16 +43,16 @@
       <file leaf-file-name="instaDemo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/instaDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="745" selection-end="745" vertical-scroll-proportion="-11.875">
+            <state line="53" column="0" selection-start="1899" selection-end="2022" vertical-scroll-proportion="-20.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="4" selection-start="670" selection-end="1771" vertical-scroll-proportion="0.19117647">
+            <state line="36" column="4" selection-start="670" selection-end="1771" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#238#248#0" expanded="false" />
                 <element signature="e#354#364#0" expanded="false" />
@@ -86,16 +86,16 @@
         <option value="$PROJECT_DIR$/assets/www/dataAPI.html" />
         <option value="$PROJECT_DIR$/assets/www/js/dataAPI.js" />
         <option value="$PROJECT_DIR$/assets/www/js/instaDemo.js" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
-        <option value="$PROJECT_DIR$/assets/www/instaDemo.html" />
-        <option value="$PROJECT_DIR$/assets/www/jokeDemo.html" />
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/js/index.js" />
+        <option value="$PROJECT_DIR$/assets/www/instaDemo.html" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/jokeDemo.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="561" />
+    <option name="x" value="4" />
     <option name="y" value="22" />
     <option name="width" value="1036" />
     <option name="height" value="773" />
@@ -223,7 +223,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="22" width="1036" height="773" extended-state="0" />
+    <frame x="4" y="22" width="1036" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -334,32 +334,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="72" selection-start="2929" selection-end="2970" vertical-scroll-proportion="-19.375">
-          <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="1" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/jokeDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="698" selection-end="698" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/instaDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="745" selection-end="745" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
@@ -373,13 +350,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="670" selection-end="1771" vertical-scroll-proportion="0.19117647">
+        <state line="36" column="4" selection-start="670" selection-end="1771" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#238#248#0" expanded="false" />
             <element signature="e#354#364#0" expanded="false" />
             <element signature="e#462#472#0" expanded="false" />
             <element signature="e#561#571#0" expanded="false" />
             <element signature="e#652#662#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/instaDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1899" selection-end="2022" vertical-scroll-proportion="-20.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/jokeDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="65" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-20.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="69" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.71938777">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
