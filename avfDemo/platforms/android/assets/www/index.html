@@ -29,7 +29,7 @@ AVF 1308
                 There must be a better way to get the title to wrap.-->
         </section>
         <!-- Content -->
-        <section data-role="content" id="contentDiv">
+        <section data-role="content">
             <p>Houston Bennett <br>AVF Term: 1308</p>
             <!--The same goes for the break here.
                 There must be a better way.-->
@@ -62,8 +62,8 @@ AVF 1308
             </section>
             <!-- Content -->
             <section data-role="content" id="dataContent">
-                <a href="instaDemo.html" rel="external" data-role="button">Instagram</a>
-                <a href="jokeDemo.html" rel="external" data-role="button">Chuck Norris Jokes</a>
+                <a href="#instaPage" data-role="button">Instagram</a>
+                <a href="#jokePage" data-role="button">Chuck Norris Jokes</a>
 
             </section>
             <!-- Footer -->
@@ -71,7 +71,7 @@ AVF 1308
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
-                        <li><a href="index.html#dataPage" rel="external" data-icon="home" data-role="button">Data</a></li>
+                        <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
                         <li><a href="#researchPage" data-icon="home" data-role="button">Research</a></li>
 
                     </ul>
@@ -101,17 +101,71 @@ AVF 1308
                 </div>
             </section>
         </div>
+    <!-- Joke Page -->
+    <div data-role="page" id="jokePage" data-theme="b">
+        <!-- Header -->
+        <section data-role="header">
+            <p><h1>Random Chuck Norris Jokes</h1></p>
+
+        </section>
+        <!-- Content -->
+        <section data-role="content">
+
+            <p id="jokeP"></p>
+
+            <button id="jokeBtn">Click Here for Another Joke!</button>
+        </section>
+        <!-- Footer -->
+        <section data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                    <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
+                    <li><a href="#researchPage" data-icon="home" data-role="button">Research</a></li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- Insta Page -->
+    <div data-role="page" id="instaPage" data-theme="b">
+        <!-- Header -->
+        <section data-role="header">
+            <p><h1>Instagram Demo App</h1></p>
+
+        </section>
+        <!-- Content -->
+        <section data-role="content" id="contentDiv">
+
+            <p>Instagram shows </p>
+            <p id="mediaCount">NaN<!-- Number of pictures of certain tag --></p>
+            <p> pictures tagged with TourSmart</p>
+
+
+        </section>
+        <!-- Footer -->
+        <section data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                    <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
+                    <li><a href="#researchPage" data-icon="home" data-role="button">Research</a></li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
 
 
 
-</body>
+    </body>
 <!-- Load JS Stuff -->
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.3.2.js"></script>
         <script type="text/javascript" src="js/jquery.validate.js"></script>
         <script type="text/javascript" src="js/jquery.couch.js"></script>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="cordova_plugins.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="cordova_plugins.js"></script>
         <script type="text/javascript" src="js/phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 

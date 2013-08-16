@@ -35,34 +35,53 @@ alert("datapage loaded!");
     //instaDemo.html load code
     $(document).on('pageinit','#instaPage',function(){
         alert("instaPage loaded!");
-        var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&amp;client_id=60e2a3926a9b4ba08b4920b7922e5479'
+        var url = 'https://api.instagram.com/v1/tags/TourSmart?client_id=60e2a3926a9b4ba08b4920b7922e5479'
         console.log('instaPage has initialized!');
+        $.ajax({
+            url: url,
+            type: "GET",
+            dataType: "JSONP",
+            success: function(dataset){
+                alert(dataset);
+                console.log(dataset);
+                alert(dataset.data.media_count);
+                var mediaCount = dataset.data.media_count;
+                $('#mediaCount').text(mediaCount);
+            }
+        });
+        /*
         $.getJSON(url, function(dataset){
-
+            alert(dataset);
             console.log(dataset);
             alert(dataset.data.media_count);
             var mediaCount = dataset.data.media_count;
             $('#mediaCount').text(mediaCount);
 
         })
-            .error(function(args){
+            .fail(function(args){
 
-                alert(args);
+                alert("WARNING! "+ JSON.stringify(args));
             });
+            */
     });
 //jokePage load code
     $(document).on('pageinit','#jokePage',function(){
         alert("jokepage loaded!");
-        var url = 'http://api.icndb.com/jokes/random'
+        var url = 'http://api.icndb.com/jokes/random?callback=?'
         console.log('jokePage has initialized!');
-        $.getJSON(url, function(dataset){
+        $.getJSON(url,null, function(dataset){
             alert(dataset);
             console.log(dataset);
             console.log(dataset.value.joke);
             var jokeTxt = dataset.value.joke;
             $('#jokeP').text(jokeTxt);
 
-        });
+        })
+            .fail(function(args){
+               //var err = textStatus+", "+ error;
+                alert("WARNING! "+ JSON.stringify(args));
+
+            });
     });
 //button to reload page and get another joke
     $('#jokeBtn').on('click', function(){
