@@ -23,7 +23,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="69" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.71938777">
+            <state line="113" column="73" selection-start="4450" selection-end="4581" vertical-scroll-proportion="0.71938777">
               <folding>
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/js/index.js" />
         <option value="$PROJECT_DIR$/assets/www/instaDemo.html" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/jokeDemo.html" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
       </list>
     </option>
   </component>
@@ -377,7 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="69" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.71938777">
+        <state line="113" column="73" selection-start="4450" selection-end="4581" vertical-scroll-proportion="0.71938777">
           <folding>
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
