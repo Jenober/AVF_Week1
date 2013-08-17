@@ -1,0 +1,34 @@
+html{
+
+    min-height: 960px;
+    font-size: 16px;
+}
+body{
+    font-size: .625em;
+    min-height: 1em
+
+}
+
+p{
+    font-size: 300%;
+    text-align: center;
+}
+
+@media (min-width: 600px){
+.ui-btn{
+    min-height: 16em;
+    color: red;
+}
+
+    
+}
+.ui-btn-text{
+        font-size: 300%;
+        padding-top: 10%;
+        font-color: yellow;
+}
+
+#mediaCount{
+
+    font-size: 2.85em;
+}
