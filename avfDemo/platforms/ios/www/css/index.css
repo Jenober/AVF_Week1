@@ -14,14 +14,18 @@ p{
     text-align: center;
 }
 
+@media (min-width: 600px){
 .ui-btn{
     min-height: 16em;
-
+    color: red;
 }
 
+    
+}
 .ui-btn-text{
-    font-size: 300%;
-    padding-top: 10%;
+        font-size: 300%;
+        padding-top: 10%;
+        font-color: yellow;
 }
 
 #mediaCount{

@@ -16,7 +16,7 @@ function onDeviceReady() {
     //Code to run when Data API page loads
     $(document).on('pageinit','#dataPage',function(){
 
-alert("datapage loaded!");
+        //alert("datapage loaded!");
 
     });
     //Research page load code
@@ -34,9 +34,9 @@ alert("datapage loaded!");
 
     //instaDemo load code
     $(document).on('pageinit','#instaPage',function(){
-        alert("instaPage loaded!");
-var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?callback=?&client_id=60e2a3926a9b4ba08b4920b7922e5479';
-        //var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?access_token=fb2e77d.47a0479900504cb3ab4a1f626d174d2d&callback=?'
+        //alert("instaPage loaded!");
+var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&client_id=60e2a3926a9b4ba08b4920b7922e5479';
+        //var url = 'https://api.instagram.com/v1/tags/TourSmart?access_token=fb2e77d.47a0479900504cb3ab4a1f626d174d2d&callback=?'
         console.log('instaPage has initialized!');
 /*
         $.ajax({
@@ -58,12 +58,11 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?callback=?&c
         */
         /**/
         $.getJSON(url, function(dataset){
-
-            alert("Success!"+dataset);
-            console.log(dataset);
-            //alert(dataset.data.media_count);
-            var mediaCount = dataset.data.media_count;
-            $('#mediaCount').text(mediaCount);
+           
+            alert("Success!"+ JSON.stringify(dataset));
+                  alert(dataset.data.media_count);
+                  var mediaCount = dataset.data.media_count;
+                  $('#mediaCount').text(mediaCount);
 
         })
             .fail(function(args){
@@ -77,6 +76,7 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?callback=?&c
         alert("jokepage loaded!");
         var url = 'http://api.icndb.com/jokes/random?callback=?'
         console.log('jokePage has initialized!');
+                   
         $.getJSON(url,null, function(dataset){
             alert(dataset);
             console.log(dataset);

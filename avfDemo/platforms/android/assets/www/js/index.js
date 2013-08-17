@@ -35,7 +35,7 @@ alert("datapage loaded!");
     //instaDemo load code
     $(document).on('pageinit','#instaPage',function(){
         alert("instaPage loaded!");
-var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?callback=?&client_id=60e2a3926a9b4ba08b4920b7922e5479';
+var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&client_id=60e2a3926a9b4ba08b4920b7922e5479';
         //var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?access_token=fb2e77d.47a0479900504cb3ab4a1f626d174d2d&callback=?'
         console.log('instaPage has initialized!');
 /*
@@ -59,9 +59,10 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart/media/recent?callback=?&c
         /**/
         $.getJSON(url, function(dataset){
 
-            alert(dataset);
+            alert("Success!"+ JSON.stringify(dataset));
             console.log(dataset);
             //alert(dataset.data.media_count);
+            alert(dataset.data.media_count);
             var mediaCount = dataset.data.media_count;
             $('#mediaCount').text(mediaCount);
 
