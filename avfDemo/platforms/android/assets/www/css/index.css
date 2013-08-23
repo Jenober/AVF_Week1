@@ -8,21 +8,44 @@ body{
     min-height: 1em
 
 }
+li{
+    font-size: 300%;
+
+}
 
 p{
     font-size: 300%;
     text-align: center;
 }
 
-.ui-btn{
-    min-height: 16em;
+.beacon{
+    display: block;
+    width: 16em;
+    height: 16em;
+    border-radius: 50% !important;
+    font-size: 150%;
 
 }
 
 .ui-btn-text{
-    font-size: 300%;
-    padding-top: 10%;
+    white-space: normal;
+        font-size: 300%;
+        padding-top: 10%;
+        font-color: yellow;
 }
+
+.buttonDiv{
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+
+
+
+
 
 #mediaCount{
 

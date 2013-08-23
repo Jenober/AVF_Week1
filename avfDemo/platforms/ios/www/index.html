@@ -86,23 +86,61 @@ AVF 1308
             </section>
             <!-- Content -->
             <section data-role="content" id="nativeContent">
+                <a data-role="button" href="#jokePage">Chuck Norris Jokes (Storage/Notification)</a>
 
-
+                <a data-role="button" href="#beaconPage">Emergency Beacon (Geo/Connection)</a>
             </section>
             <!-- Footer -->
             <section data-role="footer" data-position="fixed">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
-                        <li><a href="#" data-icon="home" data-role="button">Native</a></li>
-                        <li><a href="#" data-icon="home" data-role="button">Data</a></li>
+                        <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                        <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
                         <li><a href="#" data-icon="home" data-role="button">Research</a></li>
 
                     </ul>
                 </div>
             </section>
         </div>
-    <!-- Joke Page -->
-    <div data-role="page" id="jokePage" data-theme="b">
+    <!-- Beacon Page -->
+        <div data-role="page" id="beaconPage">
+            <!-- Header -->
+            <section data-role="header">
+                <h1>Native Feature Demo<br> Launch Page</h1>
+            </section>
+            <!-- Content -->
+
+            <section data-role="content" id="beaconContent">
+                <div>
+                    <p id="output">Acquiring Connection... </p>
+                </div>
+                <div class="loadBar">
+                    <progress id="loadBar" max="100" value="1"><span id="percent">0</span>%</progress>
+                </div>
+                <div class="buttonDiv">
+                    <div>
+                <a data-role="button" class="beacon">Launch Beacon</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <section data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                        <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
+                        <li><a href="#" data-icon="home" data-role="button">Research</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+
+        </div>
+    <!-- joke API Page -->
+        <div data-role="page" id="jokePage" data-theme="b">
         <!-- Header -->
         <section data-role="header">
             <p><h1>Random Chuck Norris Jokes</h1></p>
@@ -112,8 +150,10 @@ AVF 1308
         <section data-role="content">
 
             <p id="jokeP"></p>
-            <a href="index.html#jokePage" data-role="button">No! Click here!</a>
+            <a href="#" data-role="button">No! Click here!</a>
             <button id="jokeBtn">Click Here for Another Joke!</button>
+            <button id="saveBtn">Save This Joke?</button>
+            <a href="#jokeView" data-role="button">View Saved Jokes</a>
         </section>
         <!-- Footer -->
         <section data-role="footer" data-position="fixed">
@@ -127,11 +167,42 @@ AVF 1308
             </div>
         </section>
     </div>
-    <!-- Insta Page -->
-    <div data-role="page" id="instaPage" data-theme="b">
+    <!-- jokeView page -->
+        <div data-role="page" id="jokeView">
+        <!--Header-->
+        <section data-role="header">
+            <h1>Saved Jokes</h1>
+        </section>
+        <!--Content-->
+
+        <section data-role="content" >
+            <ul data-role="listview" id="jokeList">
+
+
+            </ul>
+            <button id="clearBtn">Clear All Data</button>
+
+
+        </section>
+        <!--Footer-->
+
+        <section data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                    <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
+                    <li><a href="#researchPage" data-icon="home" data-role="button">Research</a></li>
+
+                </ul>
+            </div>
+        </section>
+
+    </div>
+    <!-- Instagram API Page -->
+        <div data-role="page" id="instaPage" data-theme="b">
         <!-- Header -->
         <section data-role="header">
-            <p><h1>Instagram Demo App</h1></p>
+            <h1>Instagram Demo App</h1>
 
         </section>
         <!-- Content -->
