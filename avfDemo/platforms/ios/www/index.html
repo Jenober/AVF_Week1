@@ -168,7 +168,7 @@ AVF 1308
         </section>
     </div>
     <!-- jokeView page -->
-        <div data-role="page" id="jokeView">
+        <div data-role="page" id="jokeView" data-theme="b">
         <!--Header-->
         <section data-role="header">
             <h1>Saved Jokes</h1>
@@ -226,7 +226,91 @@ AVF 1308
             </div>
         </section>
     </div>
+    <!-- Research Page -->
+        <div data-role="page" id="researchPage"  data-theme="b">
+            <!-- Header -->
+            <section data-role="header">
+                <h1>Research</h1>
 
+            </section>
+            <!-- Content -->
+            <section data-role="content" >
+
+                <p>Week 1:</p>
+                <p class='left'>1: The login scenario can be covered by requiring only one login
+                    for multiple services, similar to apps that have the option to
+                    login using your Facebook credentials. At first I didn't understand
+                    how Instagram could be used in a payment scenario. Then I thought
+                    one might be able to use Instagram as a way to take a picture of a
+                    check and have that check sent to another Instagram user. Twitter
+                    partnered with a major credit card company (can't recall which) to
+                    accomplish something similar.</p>
+
+                  <p class='left'>2: JSONP is used as a way to avoid the same origin policy and grab
+                    data from a server other than one hosting your web page. There are
+                    some security concerns involved that I have found can be avoided by
+                    using another technique called CORS.</p>
+
+                   <p class='left'>3: Pairing the Facebook API with the native GPS could allow a
+                    musician to see which 'friends' of their band are near the venue
+                    and could even automatically send a status update announcing the
+                    band's arrival. Another mash up could be to combine the google maps
+                    API with native storage to store directions in case of a loss of cell
+                    or Internet service.</p>
+                <p>Week 2:</p>
+                <p class='left'>1: I’m going to have to look a little closer at my code and actually
+                    write it with a bit of an eye toward accessibility. I know that various
+                    screen readers and such will pick some of the tags up. The mobile space
+                    seems to be a better area for ease of access. We’re forced to simplify
+                    our designs and only give the users what matters most. Desktop web
+                    pages are very busy and that can be overwhelming.</p>
+
+
+
+                   <p class='left'>2: The internet in general isn’t really built to be accessible,
+                    especially for the blind. It’s no longer just a medium of text like
+                    it once was. There are so many images and visual cues that can get
+                    lost when they’re reduced to a robot voice describing it. Which is
+                    another point, the voices are horrible and grating. I’m sure there’s
+                    plenty of room for improvement there.</p>
+
+
+
+                   <p class='left'> 3: This guy built an XBOX 360 controller that is playable with only
+                    one hand. It may not apply to the mobile space, but this is one of
+                    the coolest things I’ve ever seen that aids in accessibility.
+                    http://benheck.com/Games/Xbox360/controls/1hand/singlehandcontroller.htm
+
+                    During my poking around I came across something that really blew my mind,
+                    Braille Displays! These are devices that pair with screen reader software
+                    and occasionally speech synthesizers to enable blind users to read text
+                    output. They even make some of these displays for mobile devices.</p>
+
+
+
+                   <p class='left'> 4: The first app I found was called TalkBack for android. And it seems
+                    Apple has taken the accessibility thing to heart with its integration
+                    of VoiceOver which is available for both OS X and iOS.</p>
+
+                </p>
+                <p></p>
+                <p></p>
+
+
+            </section>
+            <!-- Footer -->
+            <section data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                        <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
+                        <li><a href="#researchPage" data-icon="home" data-role="button">Research</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+        </div>
 
 
     </body>
