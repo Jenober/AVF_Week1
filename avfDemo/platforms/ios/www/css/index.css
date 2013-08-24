@@ -8,25 +8,56 @@ body{
     min-height: 1em
 
 }
+li{
+    font-size: 300%;
+
+}
 
 p{
     font-size: 300%;
     text-align: center;
 }
 
-@media (min-width: 600px){
+@media (max-width: 767px){
 .ui-btn{
     min-height: 16em;
-    color: red;
+    color: white;
 }
 
     
 }
+.left{
+    text-align: left;
+}
+
+.beacon{
+    display: block;
+    width: 16em;
+    height: 16em;
+    border-radius: 50% !important;
+    font-size: 150%;
+
+}
+
 .ui-btn-text{
+    white-space: normal;
         font-size: 300%;
         padding-top: 10%;
         font-color: yellow;
 }
+
+.buttonDiv{
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+
+
+
+
 
 #mediaCount{
 
