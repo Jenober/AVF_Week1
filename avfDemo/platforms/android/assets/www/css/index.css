@@ -18,13 +18,34 @@ p{
     text-align: center;
 }
 
+@media (max-width: 767px){
+.ui-btn{
+    min-height: 6em;
+    color: white;
+}
+
+    
+}
+.left{
+    text-align: left;
+}
+
 .beacon{
     display: block;
     width: 16em;
     height: 16em;
     border-radius: 50% !important;
     font-size: 150%;
+    margin: 0 auto;
+    text-align: center;
 
+}
+.ui-collapsible h4 .ui-btn-inner
+{
+    text-align:center;
+}
+.ui-collapsible-heading .ui-icon {
+    display: none;
 }
 
 .ui-btn-text{
