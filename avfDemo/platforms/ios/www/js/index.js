@@ -73,14 +73,57 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&client_id=60e2
 //jokePage load code
     $(document).on('pageinit','#jokePage',function(){
         alert("jokepage loaded!");
+        //load contacts
+        var fields       = ["displayName", "name"];
+        var options      = new ContactFindOptions();
+        options.multiple = true;
+
+        var contactList = $('#contactUl');
+
+
+        function success(contacts){
+            alert("success!");
+            if (contacts.length > 0) {
+
+                for (var x = 0, l = contacts.length;x<l; x++ ){
+                    contactList.append("<li class='contactLi'>"+contacts[x].name.formatted +"</li>")
+
+
+                }
+                contactList.listview('refresh');
+
+            }else{
+
+                alert('There were no contacts found!');
+            }
+
+        };
+
+        function error(err){
+
+            alert("An Error Occured!  "+ err);
+
+        };
+
+        alert("looking for contacts!");
+        navigator.contacts.find(fields,success,error,options);
+
+        $(document).on('click',".contactLi",function(){
+            var name = this.innerHTML;
+
+            alert("Joke has been sent to: " + name);
+
+
+        });
+
         var url = 'http://api.icndb.com/jokes/random?callback=?'
         console.log('jokePage has initialized!');
-                   
+        var jokeTxt;
         $.getJSON(url,null, function(dataset){
             alert(dataset);
             console.log(dataset);
             console.log(dataset.value.joke);
-            var jokeTxt = dataset.value.joke;
+            jokeTxt = dataset.value.joke;
             $('#jokeP').text(jokeTxt);
 
         })
@@ -89,6 +132,8 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&client_id=60e2
                 alert("WARNING! "+ JSON.stringify(args));
 
             });
+
+
 //button to reload page and get another joke
         $('#jokeBtn').on('click', function(){
             var oldLoc = window.location;
@@ -114,6 +159,7 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&client_id=60e2
 
         alert("Welcome the jokeView!");
 
+
             var jokeList = $('#jokeList');
 
             for( var x = 0, len = window.localStorage.length; x< len;x++){
@@ -128,6 +174,61 @@ var url = 'https://api.instagram.com/v1/tags/TourSmart?callback=?&client_id=60e2
         jokeList.listview('refresh');
 
 });
+// jokeSend load code
+    $(document).on('pageinit', '#jokeSend',function(){
+
+        alert("jokeSend init!");
+
+        var fields       = ["displayName", "name"];
+        var options      = new ContactFindOptions();
+        options.multiple = true;
+
+        var contactList = $('#contactList');
+
+
+        function success(contacts){
+            alert("success!");
+            if (contacts.length > 0) {
+
+                for (var x = 0, l = contacts.length;x<l; x++ ){
+                    contactList.append("<li class='contactLi'>"+contacts[x].name.formatted +"</li>")
+
+
+                }
+                contactList.listview('refresh');
+
+            }else{
+
+                alert('There were no contacts found!');
+            }
+
+        };
+
+        function error(err){
+
+            alert("An Error Occured!  "+ err);
+
+        };
+
+        alert("looking for contacts!");
+       navigator.contacts.find(fields,success,error,options);
+
+        $(document).on('click',"li",function(){
+            var name = this.innerHTML;
+
+            alert("Joke has been sent to: " + name);
+
+
+        });
+
+
+
+
+
+
+    });
+
+
 //beaconPage load code
     $(document).on('pageinit','#beaconPage',function(){
 

@@ -79,7 +79,7 @@ AVF 1308
             </section>
         </div>
     <!--Native Feature Page -->
-        <div data-role="page" id="nativePage">
+        <div data-role="page" id="nativePage" data-theme="b">
             <!-- Header -->
             <section data-role="header">
                 <h1>Native Feature Demo<br> Launch Page</h1>
@@ -103,7 +103,7 @@ AVF 1308
             </section>
         </div>
     <!-- Beacon Page -->
-        <div data-role="page" id="beaconPage">
+        <div data-role="page" id="beaconPage" data-theme="b">
             <!-- Header -->
             <section data-role="header">
                 <h1>Native Feature Demo<br> Launch Page</h1>
@@ -150,8 +150,15 @@ AVF 1308
         <section data-role="content">
 
             <p id="jokeP"></p>
-            <a href="#" data-role="button">No! Click here!</a>
-            <button id="jokeBtn">Click Here for Another Joke!</button>
+
+            <div data-role="collapsible">
+                <h4>Send This Joke To A Friend!</h4>
+                <ul data-role="listview" id="contactUl">
+
+
+                </ul>
+
+            </div>
             <button id="saveBtn">Save This Joke?</button>
             <a href="#jokeView" data-role="button">View Saved Jokes</a>
         </section>
@@ -167,6 +174,36 @@ AVF 1308
             </div>
         </section>
     </div>
+    <!-- jokeSend Page -->
+        <div data-role="page" id="jokeSend" data-theme="b">
+            <!--Header-->
+            <section data-role="header">
+                <h1>Select Contact</h1>
+            </section>
+            <!--Content-->
+
+            <section data-role="content" >
+                <p id="jokeText"></p>
+                <ul data-role="listview" id="contactList">
+
+
+                </ul>
+
+            </section>
+            <!--Footer-->
+
+            <section data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#nativePage" data-icon="home" data-role="button">Native</a></li>
+                        <li><a href="#dataPage" data-icon="home" data-role="button">Data</a></li>
+                        <li><a href="#researchPage" data-icon="home" data-role="button">Research</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+        </div>
     <!-- jokeView page -->
         <div data-role="page" id="jokeView" data-theme="b">
         <!--Header-->
